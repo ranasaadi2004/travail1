@@ -10,36 +10,42 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 16px;
-    padding: 14px 24px;
-    background: #1f2140;
-    color: #ffffff;
+    padding: 14px 28px;
+    background: #1565c0;
 }
 
-.navbar-titre {
+.marque {
     color: #ffffff;
+    font-size: 22px;
     font-weight: bold;
     text-decoration: none;
 }
 
 .navbar-liens {
     display: flex;
-    gap: 8px;
+    align-items: center;
+    gap: 12px;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.navbar-liens a {
-    display: block;
-    padding: 8px 12px;
-    border-radius: 8px;
+.navbar-liens .bouton {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    background: #0d47a1;
     color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
     text-decoration: none;
 }
 
-.navbar-liens a.actif,
-.navbar-liens a:hover {
-    background: #4F5B93;
+.navbar-liens .bouton:hover,
+.navbar-liens .bouton.actif {
+    background: #ffffff;
+    color: #1565c0;
 }
 
 .contenu {
