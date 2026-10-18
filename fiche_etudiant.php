@@ -8,6 +8,8 @@
 </head>
 <body>
 
+<?php include "navbar.php"; ?>
+
 <?php
 
 $nom = "Rana Essadi";  
